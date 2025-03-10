@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>My Translator</title>
+  <link rel="stylesheet" href="main.css">
+</head>
+<body>
+  <h2>My Translator</h2>
+
+  <div class="translator">
+    <div class="language-box">
+      <select id="fromLang">
+        <option value="en">English</option>
+        <option value="uz">O'zbek</option>
+      </select>
+      <textarea id="inputText" placeholder="Type text..."></textarea>
+    </div>
+
+    <button id="swapBtn">⇄</button>
+
+    <div class="language-box">
+      <select id="toLang">
+        <option value="uz">O'zbek</option>
+        <option value="en">English</option>
+      </select>
+      <textarea id="outputText" readonly></textarea>
+    </div>
+  </div>
+
+  <button id="translateBtn">Translate</button>
+
+  <script src="trlater.js"></script>
+</body>
+</html>
